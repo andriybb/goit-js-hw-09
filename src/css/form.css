@@ -1,0 +1,94 @@
+/* white -------------------------------------------------------------------------------------------------------- */
+.feedback-form {
+  width: 360px;
+  padding: 24px;
+display: flex;
+gap: 8px;
+flex-direction: column;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 8px;
+}
+
+.feedback-form>label{
+width: 100%;
+text-align: left;
+font-weight: 400 ;
+font-size: 16px ;
+letter-spacing: 0.04em;
+background-color: transparent;
+}
+.feedback-form>label>input{
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 100%;
+height: 40px;
+margin-top: 8px;
+font-weight: 400 ;
+font-size: 16px ;
+letter-spacing: 0.04em;
+background-color: transparent;
+padding-left: 16px;
+}
+
+.feedback-form>label>input:hover,.feedback-form>label>input:focus{
+border: 1px solid #000;
+font-weight: 400 ;
+font-size: 16px ;
+letter-spacing: 0.04em;
+background-color: transparent;
+}
+.feedback-form>label>input::placeholder{
+
+color: #fff;
+}
+.feedback-form>label>input:focus::placeholder{
+
+color: #2e2f42;
+}
+.feedback-form>label>textarea{
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 100%;
+
+margin-top: 8px;
+font-weight: 400 ;
+font-size: 16px ;
+letter-spacing: 0.04em;
+background-color: transparent;
+padding-left: 16px;
+}
+
+.feedback-form>label>textarea:hover,.feedback-form>label>textarea:focus{
+border: 1px solid #000;
+font-weight: 400 ;
+font-size: 16px ;
+letter-spacing: 0.04em;
+background-color: transparent;
+}
+.feedback-form>label>textarea::placeholder{
+
+color: #fff;
+}
+.feedback-form>label>textarea:focus::placeholder{
+
+color: #2e2f42;
+}
+.feedback-form>button{
+border-radius: 8px;
+padding: 8px 16px;
+width: 95px;
+height: 40px;
+background-color: #4e75ff;
+color: #fff;
+font-weight: 500 ;
+font-size: 16px ;
+letter-spacing: 0.04em;
+margin-top: 8px;
+border: transparent;
+}
+.feedback-form>button:hover, .feedback-form>button:focus{
+
+background-color: #6c8cff;
+
+}
