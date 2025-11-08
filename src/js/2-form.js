@@ -2,9 +2,8 @@ const formData = { email: "", message: "" };
 const form = document.querySelector(".feedback-form");
 
 function saveToLS(key, value) {
-  const zip = JSON.stringify(value);
-  const item = localStorage.getItem(key);
-  localStorage.setItem(item, zip);
+ 
+  localStorage.setItem(key, JSON.stringify(value));
 };
 
 function loadFromLS(key) {
